@@ -15,12 +15,11 @@
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
+    <link rel = "stylesheet" href= "assets/css/caseStudy.css">
+
 </head>
 <body>
-
-
-
-    <!-- ***** Header Area Start ***** -->
+    <!--<!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -81,5 +80,63 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+--> 
+<!--case study portion-->
+    <div class = "content">
+    <h1>CASE STUDY</h1>
+    <p>The case studies featured here and in our archives<br> will give you a
+    taste of our running campaigns,<br> the creative process behind influencer<br> collaborations
+    and a sneak peek into the world of our in-house creations.
+    </p>
+    </div>
+    <div class = "slider">
+        <div class = "slides">
+            <input type ="radio" name= "radio-btn" id= "radio1">
+            <input type ="radio" name= "radio-btn" id= "radio2">
+            <input type ="radio" name= "radio-btn" id= "radio3">
+            <!--slide images start-->
+             <div class = "slide first">
+                 <video width="320" height="240" controls>
+                 <source src="assets/videos/Phy Men Case Study SHOWREEL.mp4" type="video/mp4">
+                 </video>
+             </div>
+             <div class = "slide second">
+                 <video width = "320" height="240" controls>
+                     <source src="assets/videos/Hum Tum Challenge SHOWREEL.mp4" type="video/mp4">
+                 </video>
+             </div>
+                 <div class = "slide third">
+                 <video width = "320" height="240" controls>
+                     <source src = "assets/videos/Ronit Case Study SHOWREEL.mp4" type="video/mp4">
+                 </video>
+             </div>
+            <!--slide images end-->
+            <!--auto-navigation start-->
+            <div class = "nav-auto">
+                <div class= "auto-btn1"></div>
+                <div class= "auto-btn2"></div>
+                <div class= "auto-btn3"></div>
+            </div>
+            <!--auto-navigation end-->
+            <!--manual nav start-->
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+            <!--manual nav end-->
+            </div>
+    </div>
+    
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById("radio1" + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    },5000);
+</script>
 </body>
 </html>
