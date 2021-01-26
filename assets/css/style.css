@@ -1161,7 +1161,7 @@ Friends of TGB
 Our Team
 ---------------------------------------------
 */
-
+ 
 .ourTeam {
   text-align: center;
   box-shadow: none;
@@ -1172,8 +1172,8 @@ Our Team
   margin-bottom: 5%;
 }
 .ourTeam img{
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 400px;
 }
 .ourTeam .logo{  
   box-shadow: 5px 5px 5px 0px #f3f0f0;
