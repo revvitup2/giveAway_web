@@ -7,7 +7,9 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.what-we-do{
+  height: 100vh;
+}
 .row1 {
   margin: 100px;
   float: right;
@@ -32,13 +34,4 @@ body {
   background-color: #f5cd1c;
 }
 
-.row2 #one{
-    background-color: rebeccapurple;
-}
-.row2 #two{
-    background-color: rgb(62, 54, 70);
-}
-.row2 #three{
-    background-color: rgb(31, 11, 51);
-}
 
