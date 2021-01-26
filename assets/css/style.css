@@ -889,10 +889,17 @@ banner
   font-size: 30px;
   align-items: baseline;
 }
+.heading3{
+  display: flex;
+  font-size: 30px;
+  align-items: baseline;
+}
 .heading2 .square{
   background-color: #ff784b;
 }
-
+.heading3 .square{
+  background-color: #ff784b;
+}
 /* ==== Main CSS === */
 .img-fill{
   width: 100%;
