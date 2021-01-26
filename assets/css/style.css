@@ -1101,11 +1101,104 @@ Our IP
 .ipContainer{
   width: 33%;
 }
+
+.ipContainer .socialbtns img{
+  width: 35px;
+  height: 35px;
+}
 @media only screen and (max-width: 600px) {
   .ipContainer {
     width: 100%;
   }
 }
+
+/*
+---------------------------------------------
+Friends of TGB
+---------------------------------------------
+*/
+
+.friendsTGB {
+  text-align: center;
+  box-shadow: none;
+  margin-top: 10%;
+}
+.friendsTGB .square{
+  background-color: #fc8684;
+  margin-bottom: 5%;
+}
+.friendsTGB img{
+  width: 250px;
+  height: 300px;
+}
+
+.friendsTGB .logo{  
+  box-shadow: 5px 5px 5px 0px #f3f0f0;
+  border-radius: 10%;
+  border-top-left-radius: 5%;
+  margin-top: 5%;
+}
+.friendsTGB .maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tgbcontainer{
+  width: 33%;
+}
+.tgbcontainer .socialbtns img{
+  width: 35px;
+  height: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tgbcontainer {
+    width: 100%;
+  }
+}
+
+/*
+---------------------------------------------
+Our Team
+---------------------------------------------
+*/
+
+.ourTeam {
+  text-align: center;
+  box-shadow: none;
+  margin-top: 10%;
+}
+.ourTeam .square{
+  background-color: #fc8684;
+  margin-bottom: 5%;
+}
+.ourTeam img{
+  width: 200px;
+  height: 250px;
+}
+.ourTeam .logo{  
+  box-shadow: 5px 5px 5px 0px #f3f0f0;
+  border-radius: 10%;
+  border-top-left-radius: 5%;
+  margin-top: 5%;
+}
+.ourTeam .maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.teamcontainer{
+  width: 33%;
+}
+
+.teamcontainer .socialbtns img{
+  width: 35px;
+  height: 35px;
+}
+@media only screen and (max-width: 600px) {
+  .teamcontainer {
+    width: 100%;
+  }
+}
+
 
 /*
 ---------------------------------------------
@@ -1850,9 +1943,10 @@ button {
 
 @media (max-width: 767px) {
   /* line 35, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
-  .footer .footer_top .footer_widget .footer_logo {
-    /* margin-bottom: 20px; */
-  }
+  /* .footer .footer_top .footer_widget .footer_logo {
+    
+  } */
+  /* margin-bottom: 20px; */
 }
 
 /* line 45, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_footer.scss */
