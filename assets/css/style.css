@@ -1314,6 +1314,39 @@ Our Team
   mask-repeat:no-repeat;
 }
 
+/*
+---------------------------------------------
+Case Study
+---------------------------------------------
+*/
+
+.caseStudy {
+  text-align: center;
+  box-shadow: none;
+  margin-top: 10%;
+}
+.caseStudy .square{
+  background-color: #F37649;
+  margin-bottom: 5%;
+}
+
+
+.caseStudy .maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.casestudycontainer{
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .casestudycontainer {
+    width: 100%;
+  }
+}
+
+
+
 
 /*
 ---------------------------------------------
