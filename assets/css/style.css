@@ -1399,6 +1399,39 @@ Case Study
   }
 }
 
+/*
+---------------------------------------------
+Work With US
+---------------------------------------------
+*/
+
+.workwithus {
+  text-align: center;
+  box-shadow: none;
+  margin-top: 10%;
+}
+.workwithus .square{
+  background-color: #F38483;
+  margin-bottom: 5%;
+}
+
+
+.workwithus .maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workwithuscontainer{
+  width: 33%;
+}
+
+.workwithus .maincontainer .workwithuscontainer .btn{
+  width: fit-content;
+  height: 85px;
+  background-color: #F38483;
+  border-radius: 25px;
+  color:#FDF1F1;
+}
 
 
 
