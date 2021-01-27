@@ -889,10 +889,17 @@ banner
   font-size: 30px;
   align-items: baseline;
 }
+.heading3{
+  display: flex;
+  font-size: 30px;
+  align-items: baseline;
+}
 .heading2 .square{
   background-color: #ff784b;
 }
-
+.heading3 .square{
+  background-color: #ff784b;
+}
 /* ==== Main CSS === */
 .img-fill{
   width: 100%;
@@ -1068,6 +1075,75 @@ clients
   }
 }
 
+.clientcontainer{
+  width: 33%;
+}
+
+.clientcontainer .socialbtns img{
+  width: 35px;
+  height: 35px;
+}
+@media only screen and (max-width: 600px) {
+  .clientcontainer {
+    width: 100%;
+  }
+}
+
+
+.all-icons{  
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.what-we-do-icon-1{
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+  background-color: #E9D7E3;
+}
+ .what-we-do-icon-2{
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+  background-color: #FC8684;
+}
+.what-we-do-icon-3{
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+  background-color: #CB7AB2;
+}
+.all-icons .image{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.what-we-do-icon-4{
+  background-color: #FF784B;
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+}
+.what-we-do-icon-5{
+  background-color: #FFB27B;
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+}
+ .what-we-do-icon-6{
+  background-color: #E34341;
+  float: left;
+  width: 33.3333%;
+  padding: 10px;
+  height: 50vh;
+}
 
 /*
 ---------------------------------------------
@@ -1161,7 +1237,7 @@ Friends of TGB
 Our Team
 ---------------------------------------------
 */
-
+ 
 .ourTeam {
   text-align: center;
   box-shadow: none;
@@ -1172,8 +1248,8 @@ Our Team
   margin-bottom: 5%;
 }
 .ourTeam img{
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 400px;
 }
 .ourTeam .logo{  
   box-shadow: 5px 5px 5px 0px #f3f0f0;
@@ -1198,6 +1274,78 @@ Our Team
     width: 100%;
   }
 }
+.box {
+  --b: 5px;
+  --c: #e34341;
+  --w: 50px;
+  padding: var(--b);
+  position: relative;
+  display: inline-flex;
+}
+.box::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:var(--c,#e34e41);
+  -webkit-mask:
+    linear-gradient(#fff,#fff) top left,
+    linear-gradient(#fff,#fff) top left,
+    linear-gradient(#fff,#fff) bottom left,
+    linear-gradient(#fff,#fff) bottom left,
+    linear-gradient(#fff,#fff) top right,
+    linear-gradient(#fff,#fff) top right,
+    linear-gradient(#fff,#fff) bottom right,
+    linear-gradient(#fff,#fff) bottom right;
+  -webkit-mask-size:var(--b) var(--w),var(--w) var(--b);
+  -webkit-mask-repeat:no-repeat;
+  mask:
+    linear-gradient(#fff,#fff) top left,
+    linear-gradient(#fff,#fff) top left,
+    linear-gradient(#fff,#fff) bottom left,
+    linear-gradient(#fff,#fff) bottom left,
+    linear-gradient(#fff,#fff) top right,
+    linear-gradient(#fff,#fff) top right,
+    linear-gradient(#fff,#fff) bottom right,
+    linear-gradient(#fff,#fff) bottom right;
+  mask-size:var(--b) var(--w),var(--w) var(--b);
+  mask-repeat:no-repeat;
+}
+
+/*
+---------------------------------------------
+Case Study
+---------------------------------------------
+*/
+
+.caseStudy {
+  text-align: center;
+  box-shadow: none;
+  margin-top: 10%;
+}
+.caseStudy .square{
+  background-color: #F37649;
+  margin-bottom: 5%;
+}
+
+
+.caseStudy .maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.casestudycontainer{
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .casestudycontainer {
+    width: 100%;
+  }
+}
+
+
 
 
 /*
