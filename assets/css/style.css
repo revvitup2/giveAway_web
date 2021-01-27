@@ -1130,6 +1130,7 @@ clients
 }
 
 .clientcontainer{
+  text-align: center;
   width: 33%;
 }
 
@@ -1173,8 +1174,8 @@ clients
   background-color: #CB7AB2;
 }
 .all-icons .image{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:25%;
+  margin-top: 10%;
   display: block;
 }
 .what-we-do-icon-4{
