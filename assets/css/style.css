@@ -1200,6 +1200,36 @@ clients
   height: 50vh;
 }
 
+
+/* .what-we-do{
+  height: 100vh;
+}
+.row1 {
+  margin: 100px;
+  float: right;
+  text-align: right;
+}
+.row2{
+    margin: 50px;
+}
+.heading2 {
+  display: flex;
+  font-size: 30px;
+  align-items: baseline;
+  
+}
+.square {
+  height: 25px;
+  width: 25px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+.heading2 .square {
+  background-color: #f5cd1c;
+} */
+
+
+
 /*
 ---------------------------------------------
 Our IP
