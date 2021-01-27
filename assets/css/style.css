@@ -894,10 +894,10 @@ banner
 
 .section {
   padding : 60px;
-  -webkit-box-shadow: 0px 10px 10px 0px #f3f0f0;
+  /* -webkit-box-shadow: 0px 10px 10px 0px #f3f0f0;
   -moz-box-shadow: 0px 10px 10px 0px #f3f0f0;
   box-shadow: 0px 10px 10px 0px #f3f0f0;
-  color: gray;
+  color: gray; */
 }
 .square {
   height: 25px;
