@@ -214,28 +214,49 @@ reset
 *{
   font-family: "Havelock";
 }
-.ourTeam {
+ /* .ourTeam {
   text-align: center;
   box-shadow: none;
   margin-top: 10%;
-}
-.ourTeam .square{
+} */
+/* .ourTeam .square{
   background-color: #fc8684;
   margin-bottom: 5%;
-}
-.ourTeam img{
+} */
+/* .ourTeam img{
   width: 200px;
   height: 250px;
-}
-.ourTeam .logo{  
+} */
+/* .ourTeam .logo{  
   box-shadow: 5px 5px 5px 0px #f3f0f0;
   border-radius: 10%;
   border-top-left-radius: 5%;
   margin-top: 5%;
-}
-.ourTeam .maincontainer{
+} */
+/* .ourTeam .maincontainer{
   display: flex;
   flex-wrap: wrap;
+} */ 
+.main-channelcontainer{
+  /* display: flex; */
+  text-align: center;
+}
+.channelcontainer{
+  width: 33%;
+  height: 275px;  
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.channelcontainer img{
+  width: 200px;
+  height: 200px;
+}
+.channelcontainer-content{
+  width: 300px;
+  box-shadow: 5px 5px 5px 0px #f3f0f0;
+  border-radius: 10%;
+  border-top-left-radius: 5%;
 }
 .teamcontainer{
   width: 33%;
@@ -249,8 +270,14 @@ reset
   .teamcontainer {
     width: 100%;
   }
+  .channelcontainer{
+    width: 100%;
+  }
 }
 
+.happyClients .flickity-page-dots{
+  display: none;
+}
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
   padding: 5px;
@@ -1382,7 +1409,7 @@ Our Team
 .ourTeam {
   text-align: center;
   box-shadow: none;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 .ourTeam .square{
   background-color: #fc8684;
