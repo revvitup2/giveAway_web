@@ -17,6 +17,9 @@
     "url": "https://github.com/revvitup2/giveAway_web/issues"
   },
   "homepage": "https://github.com/revvitup2/giveAway_web#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
