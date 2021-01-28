@@ -1249,8 +1249,14 @@ clients
  .what-we-do-icon-6{
   background-color: #E34341;
 }
+.what-we-do .row1 .heading2{
+  margin-left: 50%;
+}
+.carousel-indicators li { visibility: hidden; }
 
-
+.happyClients .heading2{
+  margin-left: 60%;
+}
 /* .what-we-do{
   height: 100vh;
 }
