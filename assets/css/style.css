@@ -890,6 +890,7 @@ header
   }
   .nav-search {
     min-width: -webkit-fill-available;
+    margin-bottom: 5px;
   }
 }
 
@@ -2423,6 +2424,10 @@ button {
 .footer .socail_links ul li a:hover {
   color: #fff !important;
   background: #5db2ff;
+}
+
+.footer-para {
+  margin-top: 100px;
 }
 
 /* 
