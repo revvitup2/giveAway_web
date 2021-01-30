@@ -249,8 +249,9 @@ reset
   justify-content: center;
 }
 .channelcontainer img{
-  width: 200px;
-  height: 200px;
+  width: 125px;
+  height: 125px;
+  margin-bottom: 35px;
 }
 .channelcontainer-content{
   width: 300px;
