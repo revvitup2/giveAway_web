@@ -1224,11 +1224,18 @@ clients
     margin-top: 5%;
   }
 }
-
+.CLIENTS{
+  height: 80vh;
+}
+.CLIENTS .carousel{
+  height: 80;
+}
 .clientcontainer{
   text-align: center;
   width: 33%;
+  height: 80vh;
 }
+
 
 .clientcontainer .socialbtns img{
   width: 35px;
