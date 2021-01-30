@@ -1280,9 +1280,18 @@ clients
 }
 .carousel-indicators li { visibility: hidden; }
 
+.flickity-page-dots .dot.is-selected {
+  background: #ff784b !important;
+}
+
+.flickity-page-dots .dot {
+  border-radius: 2px !important;
+}
+
 .happyClients .heading2{
   margin-left: 60%;
 }
+
 /* .what-we-do{
   height: 100vh;
 }
