@@ -1283,7 +1283,9 @@ clients
   background-color: #E34341;
 }
 .what-we-do .row1 .heading2{
-  margin-left: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .carousel-indicators li { visibility: hidden; }
 
@@ -1296,7 +1298,9 @@ clients
 }
 
 .happyClients .heading2{
-  margin-left: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 /* .what-we-do{
