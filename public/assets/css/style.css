@@ -799,7 +799,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 90px;
 }
 
 .header-area .nav {
@@ -1250,7 +1250,6 @@ clients
 .what-we-co-icon-main {
   float: left;
   width: 33.3333%;
-  padding: 10px;
   height: 300px;
   display: flex;
 }
@@ -1328,7 +1327,6 @@ clients
 .flip-container, .front, .back {
   width: 440px;
   height: 100px;
-  padding-top: 20px;
 	/* width: 320px;
 	height: 480px; */
 }
@@ -1347,7 +1345,8 @@ clients
 
 	position: absolute;
 	top: 0;
-	left: 0;
+  left: 0;
+  display: flex;
 }
 
 /* front pane, placed above back */
@@ -1359,7 +1358,9 @@ clients
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  display: block;
+  padding: 15px;
 }
 
 
@@ -2539,9 +2540,6 @@ responsive
 */
 
 @media (max-width: 991px) {
-  .what-we-co-icon-main {
-    height: 250px;
-  }
   .all-icons .image {
     height: 100px !important;
     width: 125px !important;
@@ -2556,6 +2554,14 @@ responsive
 }
 
 @media (max-width: 540px) {
+.back h5 {
+  font-size: 65%;
+}
+
+.back p {
+  font-size: 8px;
+  line-height: 20px;
+}
 .container1 {
     font-size: 15px;
     padding: 40px 10px;
@@ -2566,6 +2572,16 @@ responsive
   margin-left: -45% !important;
 }
 }
+
+@media (max-width: 320px) {
+  .back h5 {
+    font-size: 50%;
+  }
+  
+  .back p {
+    font-size: 8px;
+    line-height: normal;
+  }
 
 @media (max-width: 1054px) {
   #top {
