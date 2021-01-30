@@ -810,6 +810,10 @@ header
   color: #fb5849;
 }
 
+.background-header .section {
+  padding: 0px 60px;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
