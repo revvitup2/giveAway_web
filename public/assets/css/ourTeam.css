@@ -70,3 +70,24 @@ body {
     list-style: none outside none;
     display: inline-block;
 }
+.socialbtns ul li a {
+  font-size: 18px;
+  color: #c3b2f0;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  background: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 40px !important;
+  margin-right: 7px;
+  color: #ffffff;
+  line-height: 41px !important;
+}
+
+.socialbtns ul li a:hover {
+  color: #fff !important;
+  border: 1px;
+}
