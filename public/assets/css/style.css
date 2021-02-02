@@ -2639,15 +2639,10 @@ responsive
 }
 }
 
-.playicon{
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  top: 50%;
-  margin-left: -20px; /*half of the width */
-  margin-top: -20px; /*half of the height */
+iframe{
+  margin-top: 40px;
 }
+
 
 @media (max-width: 320px) {
   .back h5 {
