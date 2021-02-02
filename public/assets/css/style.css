@@ -214,6 +214,9 @@ reset
 *{
   font-family: "Havelock";
 }
+p, h6, h4{
+  color: gray;
+}
  /* .ourTeam {
   text-align: center;
   box-shadow: none;
@@ -1051,12 +1054,13 @@ banner
   font-size: 30px;
   align-items: baseline;
   justify-content: flex-start;
+  color: gray;
 }
-.heading3{
+/* .heading3{
   display: flex;
   font-size: 30px;
   align-items: baseline;
-}
+} */
 .heading2 .square{
   background-color: #ff784b;
 }
