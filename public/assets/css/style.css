@@ -250,11 +250,13 @@ p, h6, h4{
   margin: 10px;
   display: flex;
   justify-content: center;
+  
 }
 .channelcontainer img{
   width: 145px;
   height: 125px;
   margin-bottom: 35px;
+  
 }
 .channelcontainer-content{
   width: 300px;
@@ -264,6 +266,7 @@ p, h6, h4{
 }
 .teamcontainer{
   width: 33%;
+  
 }
 
 .teamcontainer .socialbtns img{
