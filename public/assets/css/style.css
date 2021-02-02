@@ -249,7 +249,7 @@ reset
   justify-content: center;
 }
 .channelcontainer img{
-  width: 125px;
+  width: 145px;
   height: 125px;
   margin-bottom: 35px;
 }
@@ -1517,10 +1517,15 @@ Our Team
 .teamcontainer{
   width: 33%;
 }
+.teamcontainer img{
+  box-shadow: 5px 5px 5px 0px #f3f0f0;
+  margin-top: 5%;
+}
 
 .teamcontainer .socialbtns img{
   width: 35px;
   height: 35px;
+  box-shadow: none;
 }
 @media only screen and (max-width: 600px) {
   .teamcontainer {
