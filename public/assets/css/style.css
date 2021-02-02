@@ -2615,9 +2615,9 @@ button {
 
 .socialbtns ul li img:hover {
   color: #fff !important;
-  border: 2px solid gray;
-  box-shadow:1px 1px gray;
-  background-color: orange;
+  /* border: 2px solid gray;
+  box-shadow:1px 1px gray; */
+  background-color: #e9e8e7;
 }
 
 .footer-para {
