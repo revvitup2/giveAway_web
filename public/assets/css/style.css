@@ -2609,11 +2609,15 @@ button {
   
 }
 
+.socialbtns ul li img{
+  border-radius: 50%;
+}
 
 .socialbtns ul li img:hover {
   color: #fff !important;
   border: 2px solid gray;
   box-shadow:1px 1px gray;
+  background-color: orange;
 }
 
 .footer-para {
