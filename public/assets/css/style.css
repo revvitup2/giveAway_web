@@ -1301,8 +1301,10 @@ clients
   justify-content: flex-end;
 }
 .carousel-indicators li { visibility: hidden; }
-iframe .carousel-control-prev {
-  visibility: hidden;
+ 
+.case-study iframe{
+  border-bottom: 10px solid #FF784B;
+  border-right: 10px solid #FF784B;
 }
 .flickity-page-dots .dot.is-selected {
   background: #ff784b !important;
