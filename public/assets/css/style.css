@@ -1474,9 +1474,14 @@ Friends of TGB
   width: 33%;
   margin-bottom: 25px;
 }
+.tgbcontainer img{
+  box-shadow: 10px 10px 10px 0px #e8e8e8;
+  margin-top: 5%;
+}
 .tgbcontainer .socialbtns img{
   width: 35px;
   height: 35px;
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1518,7 +1523,7 @@ Our Team
   width: 33%;
 }
 .teamcontainer img{
-  box-shadow: 5px 5px 5px 0px #f3f0f0;
+  box-shadow: 10px 10px 10px 0px #e8e8e8;
   margin-top: 5%;
 }
 
