@@ -1301,7 +1301,9 @@ clients
   justify-content: flex-end;
 }
 .carousel-indicators li { visibility: hidden; }
-
+iframe .carousel-control-prev {
+  visibility: hidden;
+}
 .flickity-page-dots .dot.is-selected {
   background: #ff784b !important;
 }
@@ -2648,7 +2650,9 @@ iframe{
   margin-top: 40px;
 }
 
-
+/* .caseStudy .right.carousel-control, .left.carousel-control {
+  display: none;
+} */
 @media (max-width: 320px) {
   .back h5 {
     font-size: 50%;
