@@ -1032,6 +1032,14 @@ banner
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section{
+    padding : 60px 30px 0px 30px;
+  }
+  .section .heading1{
+    line-height: 40px;
+  }
+}
 .header-left{
   text-align: left;
   margin: auto;
@@ -1651,6 +1659,14 @@ Work With US
 
 .workwithuscontainer{
   width: 33%;
+}
+
+@media (max-width: 767px) {
+  .workwithuscontainer {
+    padding-bottom: 10px;
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .workwithus .maincontainer .workwithuscontainer .btn{
@@ -2652,7 +2668,7 @@ responsive
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
 .back h5 {
   font-size: 0.5rem;
 }
@@ -2668,14 +2684,25 @@ responsive
 .img-fill img {
   /* width: 400px !important; */
   height: 600px !important;
-  margin-left: -60% !important;
+  /* margin-left: -60% !important; */
+}
+.caseStudyVideo{
+  margin: 0px !important;
+ 
+}
+iframe{
+  width: 330px!important;
 }
 }
 
 iframe{
   margin-top: 40px;
+  width: 500px;
 }
-
+.caseStudyVideo{
+  margin-right: 10%;
+  margin-left: 10%;   
+}
 /* .caseStudy .right.carousel-control, .left.carousel-control {
   display: none;
 } */
