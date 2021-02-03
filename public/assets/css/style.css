@@ -256,6 +256,7 @@ p, h6, h4{
   width: 145px;
   height: 125px;
   margin-bottom: 35px;
+  object-fit: cover;
   
 }
 .channelcontainer-content{
