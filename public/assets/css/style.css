@@ -1285,9 +1285,19 @@ clients
 }
 .what-we-co-icon-main {
   float: left;
-  width: 33.3333%;
+  width: 33.33%;
   height: 300px;
   display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .what-we-co-icon-main {
+    width: 50%;
+    font-size: 12px;
+  }
+  .what-we-co-icon-main img{
+    width: 100px!important;
+    height: 100px!important;
+  }
 }
 .what-we-do-icon-1{
   background-color: #E9D7E3;
@@ -2647,7 +2657,7 @@ responsive
 --------------------------------------------- 
 */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .all-icons .image {
     height: 100px !important;
     width: 125px !important;
@@ -2659,7 +2669,7 @@ responsive
     height: 75px !important;
     width: 125px !important;
   }
-}
+} */
 
 @media (max-width: 908px) {
   .container1 {
