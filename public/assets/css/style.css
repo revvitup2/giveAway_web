@@ -2488,10 +2488,7 @@ iframe{
     font-size: 8px;
     line-height: normal;
   }
-  .img-fill img {
-    height: 600px !important;
-    margin-left: -50% !important;
-  }
+  
   iframe {
     width: 300px!important;
     height: 240px!important;
