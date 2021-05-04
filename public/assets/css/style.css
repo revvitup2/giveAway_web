@@ -1179,7 +1179,11 @@ clients
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
+color: white;
+-webkit-perspective: 0;
+-webkit-backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+visibility: visible;
 	position: absolute;
 	top: 0;
   left: 0;
