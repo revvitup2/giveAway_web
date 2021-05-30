@@ -1266,6 +1266,7 @@ Friends of TGB
 .friendsTGB img{
   width: 250px;
   height: 300px;
+  object-fit: cover;
 }
 
 .friendsTGB .logo{  
@@ -1333,6 +1334,7 @@ Our Team
 .teamcontainer img{
   box-shadow: 10px 10px 10px 0px #e8e8e8;
   margin-top: 5%;
+  object-fit: cover;
 }
 
 .teamcontainer .socialbtns img{
